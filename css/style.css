@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    padding:0 115px;
+}
+
+/* common css end */
+
+/* Header part css start */
+.logo img{
+    width: 105px;
+    height: 35px;
+}
+
+.navigation{
+    display: flex;
+}
+.nav ul {
+    display: flex;
+    margin-top: 40px;
+}
+.nav ul li{
+    margin-right: 55px;
+}
+.nav ul li a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #112200;
+    transition: all linear .3s;
+}
+
+.nav ul li a:hover{
+    color: #E85442;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav button a{
+    padding: 38px 34px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background: #E85442;
+  }
+
+  .nav button{
+    border: 0;
+    margin: 0;
+  }
+
+  .nav{
+    display: flex;
+  }
+  .icon a{
+    margin-top: 30px;
+    font-size: 15px;
+    color: #112200;
+    margin-top: 44px;
+  }
+
+  .nav ul li a span{
+    display: none;
+  }
+/* Header part css end */
+
+
+/* banner part css start */
+#banner{
+    padding-top: 127px;
+    position: relative;
+}
+
+.mainBanner{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.textArea h3{
+    color: #E85442;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-bottom: 17px;
+}
+.textArea h1{
+    color: #112200;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 77px;
+    padding-bottom: 20px;
+}
+.textArea p{
+    color: #112200;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30.4px;
+    padding-bottom: 47px;
+}
+.imgArea img{
+    width: 686px;
+    height: auto;
+    padding-left: 24rem;
+}
+
+.effect img{
+    position: absolute;
+    left: 0;
+    top: -6rem;
+    z-index: -999;
+}
+
+.infoBanner{
+    display: grid;
+    grid-template-columns: 45% 45% 10%;
+    background: #112200;
+    padding: 25px 43px;
+}
+
+.email p{
+    color:#858691;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+.email h3{
+    color:#FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.infoBanner img{
+    width: 72px;
+    height: 72px;
+}
+
+
+
+
+/* banner part css end */
+
+
+
+
+/* service part css start */
+.service h2{
+    text-align: center;
+    color: #E85442;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-size: 80px;
+}   
+#service{
+    position: relative;
+    padding-top: 250px;
+}
+
+.service{
+    position: relative;
+}
+
+
+.mainService {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.serviceRight h2{
+    color: #112200;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.serviceRight p{
+    color: #112200;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30.4px;
+    padding-bottom: 52px;
+}
+.serviceRight{
+    padding-top: 78px;
+}
+.serviceLeft{
+    padding-top: 64px;
+}
+
+.serviceDown h2{
+    color: #112200;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 9px;
+    padding-right: 18px;
+}
+.serviceDown p{
+    color: #112200;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    padding-left: 38px;
+}
+.serviceDown h2 i{
+    background: #FFC9C2;
+   padding: 9px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #E85442;
+}
+
+
+.serviceShape img{
+    position: absolute;
+    left: 43.5%;
+    top: 66px;
+}
+/* service part css end */
+
+
+
+/* protfolio part css start */
+.Protfolio h2{
+    text-align: center;
+    color: #E85442;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-size: 80px;
+    padding-top: 220px;
+    padding-bottom: 63px;
+}
+
+.Protfolio{
+    position: relative;
+}
+
+.shap img{
+    position: absolute;
+    left: 43.5%;
+    top: 18.5rem;
+}
+
+
+.protfolioText h1{
+    -webkit-text-stroke:3px #112200;
+    color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 117px;
+}
+.protfolioText span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 78px;
+    color: #E85442;
+    -webkit-text-stroke:0px #E85442;
+    line-height: 117px;
+}
+
+.protfolioImage img{
+    width: 270px;
+    height: 359px;
+    padding: 5px;
+}
+.protfolioImage{
+    background: #E85442;
+}
+
+.mainProt{
+    padding-top: 63px;
+}
+
+/* protfolio part css end */
+
+
+
+/* experience css part start */
+.Experience h2{
+    text-align: center;
+    color: #E85442;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-size: 80px;
+    padding-top: 135px;
+    padding-bottom: 63px;
+}
+
+.Experience{
+    position: relative;
+}
+
+.ExperienceShape img{
+    position: absolute;
+    left: 43.5%;
+    top: 12.8rem;
+}
+
+.mainExperience{
+    display: grid;
+    grid-template-columns: 22% 78%;
+    grid-gap: 5em;
+    position: relative;
+}
+
+.textExperice h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #112200;
+    line-height: 64px;
+    padding-top: 5rem;
+}
+
+
+#experience{
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.imgExperiece img{
+    width: 770px;
+    height: 441px;
+    padding-left: 15rem;
+}
+
+/* .effect img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 356px;
+} */
+
+/* experience css part end */
